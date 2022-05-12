@@ -3,11 +3,11 @@ WKT=$(curl -s ipinfo.io/timezone )
 clear
 figlet -f small SEDANG PROSES OM HARAP BERSABAR | lolcat
 sleep 2
-<<<<<<< HEAD
+
 figlet -f small JAGOANNEON AUTOSCRIPTSSH | lolcat
-=======
+
 figlet -f small JVG AUTOSCRIPTSSH | lolcat
->>>>>>> d5c7f04 (update)
+
 sleep 1
 echo -e ""
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━ Menu ━━━━━━━━━━━━━━━━━━━━" | lolcat
