@@ -16,11 +16,11 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-<<<<<<< HEAD
+
 IZIN=$( curl https://github.com/juangustavvo/lohe/blob/main/ipvps | grep $MYIP )
-=======
+
 IZIN=$( curl https://raw.githubusercontent.com/juangustavvo/lohe/main/ipvps | grep $MYIP )
->>>>>>> d5c7f04 (update)
+
 if [ $MYIP = $IZIN ]; then
 echo -e "${GREEN}Akses Di Izinkan...${NC}"
 else

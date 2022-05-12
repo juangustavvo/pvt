@@ -5,11 +5,11 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 KATA=$(curl -s rdpvps.me/kata.php )
 echo "Checking VPS"
-<<<<<<< HEAD
+
 IZIN=$( curl https://github.com/juangustavvo/lohe/blob/main/ipvps | grep $MYIP )
-=======
+
 IZIN=$( curl https://raw.githubusercontent.com/juangustavvo/lohe/main/ipvps | grep $MYIP )
->>>>>>> d5c7f04 (update)
+
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Akses Di Izinkan...${NC}"
 else
