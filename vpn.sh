@@ -17,8 +17,6 @@ echo "Checking VPS"
 sleep 1
 echo "Cek Izin Akses Script"
 
-IZIN=$( curl https://github.com/juangustavvo/lohe/blob/main/ipvps | grep $MYIP )
-
 IZIN=$( curl https://raw.githubusercontent.com/juangustavvo/lohe/main/ipvps | grep $MYIP )
 
 if [ $MYIP = $IZIN ]; then
